@@ -1,6 +1,3 @@
-#import os
-#BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-
 from unipath import Path 
 BASE_DIR = Path(__file__).ancestor(3)
 
