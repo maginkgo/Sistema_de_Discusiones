@@ -14,10 +14,12 @@ DJANGO_APPS = (
 )
 
 THIRD_PARTY_APPS = (
+    'south',
     
 )
 
 LOCAL_APPS = (
+    'apps.home',
     
 )
 
@@ -36,7 +38,7 @@ ROOT_URLCONF = 'SistemaDiscusiones.urls'
 
 WSGI_APPLICATION = 'SistemaDiscusiones.wsgi.application'
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es-AR'
 
 TIME_ZONE = 'UTC'
 
